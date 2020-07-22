@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ./src",
-    "lint": "eslint ./src"
+    "test": "yarn lint",
+    "lint": "eslint ./src/**.jsx"
   },
   "author": "jordanw@axosoft.com",
   "license": "MIT",
