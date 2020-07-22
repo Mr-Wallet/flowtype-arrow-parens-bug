@@ -9,4 +9,4 @@ const o: O = {
 
 function gen<T>(a: T) {}
 
-const arrowGeneric = <T>(m.o<string>((x) => x), b: T): T => b;
+const arrowGeneric = () => o.m<T>((x) => x);
