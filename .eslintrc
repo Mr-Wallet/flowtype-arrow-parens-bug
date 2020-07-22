@@ -43,12 +43,6 @@
     "implicit-arrow-linebreak": "off",
     "import/no-cycle": "off",
     "import/no-unresolved": "off",
-    "import/order": ["error", {
-      "groups": [
-        ["builtin", "external", "internal"],
-        ["parent", "sibling", "index"]
-      ]
-    }],
     "import/prefer-default-export": "off",
     "indent": ["error", 2, {
       "SwitchCase": 1,
@@ -122,54 +116,24 @@
     "react/button-has-type": "off",
     "react/default-props-match-prop-types": "off",
     "react/destructuring-assignment": "off",
-    "react/display-name": "error",
     "react/forbid-prop-types": "off",
     "react/jsx-closing-bracket-location": "off",
     "react/jsx-closing-tag-location": "off",
     "react/jsx-curly-spacing": "off",
     "react/jsx-equals-spacing": "off",
     "react/jsx-first-prop-new-line": "off",
-    "react/jsx-indent": ["error", 2, {
-      "checkAttributes": false,
-      "indentLogicalExpressions": true
-    }],
     "react/jsx-indent-props": "off",
     "react/jsx-max-props-per-line": "off",
     "react/jsx-no-bind": "off",
-    "react/jsx-no-undef": "error",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-quotes": "off",
-    "react/jsx-sort-props": ["error", {
-      "callbacksLast": false,
-      "shorthandFirst": false,
-      "shorthandLast": false,
-      "ignoreCase": true,
-      "noSortAlphabetically": false,
-      "reservedFirst": false
-    }],
     "react/jsx-space-before-closing": "off",
-    "react/jsx-tag-spacing": ["error", {
-      "closingSlash": "never",
-      "beforeSelfClosing": "always",
-      "afterOpening": "never",
-      "beforeClosing": "never"
-    }],
-    "react/jsx-wrap-multilines": ["error", {
-      "declaration": "parens-new-line",
-      "assignment": "parens-new-line",
-      "return": "parens-new-line",
-      "arrow": "parens-new-line",
-      "condition": "parens-new-line",
-      "logical": "parens-new-line",
-      "prop": "parens-new-line"
-    }],
     "react/no-is-mounted": "off",
     "react/no-unused-prop-types": "off",
     "react/prefer-es6-class": "off",
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
     "react/require-default-props": "off",
-    "react/sort-prop-types": "error",
     "sort-vars": "error",
     "space-before-function-paren": ["error", {
       "anonymous": "never",
