@@ -12,7 +12,7 @@
     "browser": true,
     "node": true
   },
-  "extends": ["plugin:flowtype/recommended"],
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
   "globals": {
     "Generator": true,
     "Promise": true

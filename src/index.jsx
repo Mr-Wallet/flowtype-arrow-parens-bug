@@ -16,13 +16,13 @@ const selectPassthrough = (OptionComponent: React.ComponentType<any>) => {
     const data: Object = props.data ? props.data : {};
 
     return (
-      <SelectOptionComponent {...props}>
+      <div {...props}>
         <OptionComponent {...data} />
-      </SelectOptionComponent>
+      </div>
     );
   };
 
   return SelectPassthrough;
-}
+};
 
 const makeSelectPassthrough = <T>(aThing: T) => o.m<string>(selectPassthrough);
